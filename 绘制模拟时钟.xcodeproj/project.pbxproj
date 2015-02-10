@@ -19,6 +19,8 @@
 		C562198E1A89DC0C00A31AA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56219761A89DC0C00A31AA0 /* UIKit.framework */; };
 		C56219961A89DC0C00A31AA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C56219941A89DC0C00A31AA0 /* InfoPlist.strings */; };
 		C56219981A89DC0C00A31AA0 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C56219971A89DC0C00A31AA0 /* ______Tests.m */; };
+		C57EB1811A89F3F700E40D87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57EB1801A89F3F700E40D87 /* ViewController.m */; };
+		C57EB1841A89F40700E40D87 /* AnalogClock.m in Sources */ = {isa = PBXBuildFile; fileRef = C57EB1831A89F40700E40D87 /* AnalogClock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		C56219931A89DC0C00A31AA0 /* 绘制模拟时钟Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "绘制模拟时钟Tests-Info.plist"; sourceTree = "<group>"; };
 		C56219951A89DC0C00A31AA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C56219971A89DC0C00A31AA0 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		C57EB17F1A89F3F700E40D87 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C57EB1801A89F3F700E40D87 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C57EB1821A89F40700E40D87 /* AnalogClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalogClock.h; sourceTree = "<group>"; };
+		C57EB1831A89F40700E40D87 /* AnalogClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalogClock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,10 @@
 		C56219661A89DC0C00A31AA0 = {
 			isa = PBXGroup;
 			children = (
+				C57EB1821A89F40700E40D87 /* AnalogClock.h */,
+				C57EB1831A89F40700E40D87 /* AnalogClock.m */,
+				C57EB17F1A89F3F700E40D87 /* ViewController.h */,
+				C57EB1801A89F3F700E40D87 /* ViewController.m */,
 				C56219781A89DC0C00A31AA0 /* 绘制模拟时钟 */,
 				C56219911A89DC0C00A31AA0 /* 绘制模拟时钟Tests */,
 				C56219711A89DC0C00A31AA0 /* Frameworks */,
@@ -239,7 +249,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57EB1811A89F3F700E40D87 /* ViewController.m in Sources */,
 				C56219831A89DC0C00A31AA0 /* AppDelegate.m in Sources */,
+				C57EB1841A89F40700E40D87 /* AnalogClock.m in Sources */,
 				C562197F1A89DC0C00A31AA0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +449,7 @@
 				C562199D1A89DC0C00A31AA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C562199E1A89DC0C00A31AA0 /* Build configuration list for PBXNativeTarget "绘制模拟时钟Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +458,7 @@
 				C56219A01A89DC0C00A31AA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
