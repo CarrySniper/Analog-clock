@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C56219731A89DC0C00A31AA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56219721A89DC0C00A31AA0 /* Foundation.framework */; };
+		C56219751A89DC0C00A31AA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56219741A89DC0C00A31AA0 /* CoreGraphics.framework */; };
+		C56219771A89DC0C00A31AA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56219761A89DC0C00A31AA0 /* UIKit.framework */; };
+		C562197D1A89DC0C00A31AA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C562197B1A89DC0C00A31AA0 /* InfoPlist.strings */; };
+		C562197F1A89DC0C00A31AA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C562197E1A89DC0C00A31AA0 /* main.m */; };
+		C56219831A89DC0C00A31AA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C56219821A89DC0C00A31AA0 /* AppDelegate.m */; };
+		C56219851A89DC0C00A31AA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56219841A89DC0C00A31AA0 /* Images.xcassets */; };
+		C562198C1A89DC0C00A31AA0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C562198B1A89DC0C00A31AA0 /* XCTest.framework */; };
+		C562198D1A89DC0C00A31AA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56219721A89DC0C00A31AA0 /* Foundation.framework */; };
+		C562198E1A89DC0C00A31AA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56219761A89DC0C00A31AA0 /* UIKit.framework */; };
+		C56219961A89DC0C00A31AA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C56219941A89DC0C00A31AA0 /* InfoPlist.strings */; };
+		C56219981A89DC0C00A31AA0 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C56219971A89DC0C00A31AA0 /* ______Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C562198F1A89DC0C00A31AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C56219671A89DC0C00A31AA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C562196E1A89DC0C00A31AA0;
+			remoteInfo = "绘制模拟时钟";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C562196F1A89DC0C00A31AA0 /* 绘制模拟时钟.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "绘制模拟时钟.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56219721A89DC0C00A31AA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C56219741A89DC0C00A31AA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C56219761A89DC0C00A31AA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C562197A1A89DC0C00A31AA0 /* 绘制模拟时钟-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "绘制模拟时钟-Info.plist"; sourceTree = "<group>"; };
+		C562197C1A89DC0C00A31AA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C562197E1A89DC0C00A31AA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C56219801A89DC0C00A31AA0 /* 绘制模拟时钟-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "绘制模拟时钟-Prefix.pch"; sourceTree = "<group>"; };
+		C56219811A89DC0C00A31AA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C56219821A89DC0C00A31AA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C56219841A89DC0C00A31AA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C562198A1A89DC0C00A31AA0 /* 绘制模拟时钟Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "绘制模拟时钟Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C562198B1A89DC0C00A31AA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C56219931A89DC0C00A31AA0 /* 绘制模拟时钟Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "绘制模拟时钟Tests-Info.plist"; sourceTree = "<group>"; };
+		C56219951A89DC0C00A31AA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C56219971A89DC0C00A31AA0 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C562196C1A89DC0C00A31AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56219751A89DC0C00A31AA0 /* CoreGraphics.framework in Frameworks */,
+				C56219771A89DC0C00A31AA0 /* UIKit.framework in Frameworks */,
+				C56219731A89DC0C00A31AA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56219871A89DC0C00A31AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C562198C1A89DC0C00A31AA0 /* XCTest.framework in Frameworks */,
+				C562198E1A89DC0C00A31AA0 /* UIKit.framework in Frameworks */,
+				C562198D1A89DC0C00A31AA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C56219661A89DC0C00A31AA0 = {
+			isa = PBXGroup;
+			children = (
+				C56219781A89DC0C00A31AA0 /* 绘制模拟时钟 */,
+				C56219911A89DC0C00A31AA0 /* 绘制模拟时钟Tests */,
+				C56219711A89DC0C00A31AA0 /* Frameworks */,
+				C56219701A89DC0C00A31AA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C56219701A89DC0C00A31AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C562196F1A89DC0C00A31AA0 /* 绘制模拟时钟.app */,
+				C562198A1A89DC0C00A31AA0 /* 绘制模拟时钟Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C56219711A89DC0C00A31AA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C56219721A89DC0C00A31AA0 /* Foundation.framework */,
+				C56219741A89DC0C00A31AA0 /* CoreGraphics.framework */,
+				C56219761A89DC0C00A31AA0 /* UIKit.framework */,
+				C562198B1A89DC0C00A31AA0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C56219781A89DC0C00A31AA0 /* 绘制模拟时钟 */ = {
+			isa = PBXGroup;
+			children = (
+				C56219811A89DC0C00A31AA0 /* AppDelegate.h */,
+				C56219821A89DC0C00A31AA0 /* AppDelegate.m */,
+				C56219841A89DC0C00A31AA0 /* Images.xcassets */,
+				C56219791A89DC0C00A31AA0 /* Supporting Files */,
+			);
+			path = "绘制模拟时钟";
+			sourceTree = "<group>";
+		};
+		C56219791A89DC0C00A31AA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C562197A1A89DC0C00A31AA0 /* 绘制模拟时钟-Info.plist */,
+				C562197B1A89DC0C00A31AA0 /* InfoPlist.strings */,
+				C562197E1A89DC0C00A31AA0 /* main.m */,
+				C56219801A89DC0C00A31AA0 /* 绘制模拟时钟-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C56219911A89DC0C00A31AA0 /* 绘制模拟时钟Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C56219971A89DC0C00A31AA0 /* ______Tests.m */,
+				C56219921A89DC0C00A31AA0 /* Supporting Files */,
+			);
+			path = "绘制模拟时钟Tests";
+			sourceTree = "<group>";
+		};
+		C56219921A89DC0C00A31AA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C56219931A89DC0C00A31AA0 /* 绘制模拟时钟Tests-Info.plist */,
+				C56219941A89DC0C00A31AA0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C562196E1A89DC0C00A31AA0 /* 绘制模拟时钟 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C562199B1A89DC0C00A31AA0 /* Build configuration list for PBXNativeTarget "绘制模拟时钟" */;
+			buildPhases = (
+				C562196B1A89DC0C00A31AA0 /* Sources */,
+				C562196C1A89DC0C00A31AA0 /* Frameworks */,
+				C562196D1A89DC0C00A31AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "绘制模拟时钟";
+			productName = "绘制模拟时钟";
+			productReference = C562196F1A89DC0C00A31AA0 /* 绘制模拟时钟.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C56219891A89DC0C00A31AA0 /* 绘制模拟时钟Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C562199E1A89DC0C00A31AA0 /* Build configuration list for PBXNativeTarget "绘制模拟时钟Tests" */;
+			buildPhases = (
+				C56219861A89DC0C00A31AA0 /* Sources */,
+				C56219871A89DC0C00A31AA0 /* Frameworks */,
+				C56219881A89DC0C00A31AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C56219901A89DC0C00A31AA0 /* PBXTargetDependency */,
+			);
+			name = "绘制模拟时钟Tests";
+			productName = "绘制模拟时钟Tests";
+			productReference = C562198A1A89DC0C00A31AA0 /* 绘制模拟时钟Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C56219671A89DC0C00A31AA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = shikee_Chan;
+				TargetAttributes = {
+					C56219891A89DC0C00A31AA0 = {
+						TestTargetID = C562196E1A89DC0C00A31AA0;
+					};
+				};
+			};
+			buildConfigurationList = C562196A1A89DC0C00A31AA0 /* Build configuration list for PBXProject "绘制模拟时钟" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C56219661A89DC0C00A31AA0;
+			productRefGroup = C56219701A89DC0C00A31AA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C562196E1A89DC0C00A31AA0 /* 绘制模拟时钟 */,
+				C56219891A89DC0C00A31AA0 /* 绘制模拟时钟Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C562196D1A89DC0C00A31AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C562197D1A89DC0C00A31AA0 /* InfoPlist.strings in Resources */,
+				C56219851A89DC0C00A31AA0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56219881A89DC0C00A31AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56219961A89DC0C00A31AA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C562196B1A89DC0C00A31AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56219831A89DC0C00A31AA0 /* AppDelegate.m in Sources */,
+				C562197F1A89DC0C00A31AA0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56219861A89DC0C00A31AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56219981A89DC0C00A31AA0 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C56219901A89DC0C00A31AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C562196E1A89DC0C00A31AA0 /* 绘制模拟时钟 */;
+			targetProxy = C562198F1A89DC0C00A31AA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C562197B1A89DC0C00A31AA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C562197C1A89DC0C00A31AA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C56219941A89DC0C00A31AA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C56219951A89DC0C00A31AA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C56219991A89DC0C00A31AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C562199A1A89DC0C00A31AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C562199C1A89DC0C00A31AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "绘制模拟时钟/绘制模拟时钟-Prefix.pch";
+				INFOPLIST_FILE = "绘制模拟时钟/绘制模拟时钟-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C562199D1A89DC0C00A31AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "绘制模拟时钟/绘制模拟时钟-Prefix.pch";
+				INFOPLIST_FILE = "绘制模拟时钟/绘制模拟时钟-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C562199F1A89DC0C00A31AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/绘制模拟时钟.app/绘制模拟时钟";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "绘制模拟时钟/绘制模拟时钟-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "绘制模拟时钟Tests/绘制模拟时钟Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C56219A01A89DC0C00A31AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/绘制模拟时钟.app/绘制模拟时钟";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "绘制模拟时钟/绘制模拟时钟-Prefix.pch";
+				INFOPLIST_FILE = "绘制模拟时钟Tests/绘制模拟时钟Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C562196A1A89DC0C00A31AA0 /* Build configuration list for PBXProject "绘制模拟时钟" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56219991A89DC0C00A31AA0 /* Debug */,
+				C562199A1A89DC0C00A31AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C562199B1A89DC0C00A31AA0 /* Build configuration list for PBXNativeTarget "绘制模拟时钟" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C562199C1A89DC0C00A31AA0 /* Debug */,
+				C562199D1A89DC0C00A31AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C562199E1A89DC0C00A31AA0 /* Build configuration list for PBXNativeTarget "绘制模拟时钟Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C562199F1A89DC0C00A31AA0 /* Debug */,
+				C56219A01A89DC0C00A31AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C56219671A89DC0C00A31AA0 /* Project object */;
+}
