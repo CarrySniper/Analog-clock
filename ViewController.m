@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "AnalogClock.h"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor orangeColor];
+    self.navigationItem.title = @"模拟时钟";
+    
+    //只能使用initWithFrame初始化方法
+    AnalogClock *clock = [[AnalogClock alloc]initWithFrame:CGRectMake(10, 80, self.view.frame.size.width-20, self.view.frame.size.width-20)];
+    [self.view addSubview:clock];
+    
 }
 
 - (void)didReceiveMemoryWarning {
