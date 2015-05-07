@@ -26,6 +26,7 @@
     AnalogClock *clock = [[AnalogClock alloc]initWithFrame:CGRectMake(10, 80, self.view.frame.size.width-20, self.view.frame.size.width-20)];
     [self.view addSubview:clock];
     
+    //asdadasd15asda5d54d5ad45a
 }
 
 - (void)didReceiveMemoryWarning {
